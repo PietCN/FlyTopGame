@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Controller">
+      <UniqueIdentifier>{46f550ff-7536-44bf-b007-ec100dba80e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameEngine">
+      <UniqueIdentifier>{451262fe-a66c-49fd-b074-2de29048ad15}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{0ea879b7-3bc4-49a8-861d-1b0dc79287b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nodes">
+      <UniqueIdentifier>{5ead855b-4d11-4d40-b5e8-daba2d50c6ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Nodes\Entitys">
+      <UniqueIdentifier>{c8be037f-6915-41f8-95f8-7bdc5f6da743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\States">
+      <UniqueIdentifier>{c57605f7-93a3-4d87-97af-56899887597b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tabellen">
+      <UniqueIdentifier>{d1542385-03cc-4631-9bb5-562c8112e9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Controller">
+      <UniqueIdentifier>{e16d9b5c-f9e2-427b-b019-004716ce8ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameEngine">
+      <UniqueIdentifier>{766c7aa9-83c7-4550-aa0b-b4dfa3edbd76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{8c55b5b2-62dc-43f2-ba6c-30496c75ca85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Identifiers">
+      <UniqueIdentifier>{3bbbe16e-da74-4dc0-b442-f2d8d5ab3b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Node">
+      <UniqueIdentifier>{a60fac1f-ca23-4d62-bef1-e4b8f09e60bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Node\Entity">
+      <UniqueIdentifier>{29ccf27a-36fe-4b0a-94cb-b3ec36c088eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Resourcen">
+      <UniqueIdentifier>{040ff736-3ace-43dd-9903-35f6ea6312bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\States">
+      <UniqueIdentifier>{b585a20e-b0b1-4323-8157-8550a2b69716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tabellen">
+      <UniqueIdentifier>{d7115113-1467-4019-b397-64cd5c020654}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Aircraft.cpp">
+      <Filter>Source Files\Nodes\Entitys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Button.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Command.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CommandQueue.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Container.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MenuState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PauseState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SceneNode.cpp">
+      <Filter>Source Files\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SpriteNode.cpp">
+      <Filter>Source Files\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Label.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Entity.cpp">
+      <Filter>Source Files\Nodes\Entitys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TitleState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\StateStack.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\World.cpp">
+      <Filter>Source Files\GameEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\State.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Source Files\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SettingState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DataTables.cpp">
+      <Filter>Source Files\Tabellen</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextNode.cpp">
+      <Filter>Source Files\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Projectile.cpp">
+      <Filter>Source Files\Nodes\Entitys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pickup.cpp">
+      <Filter>Source Files\Nodes\Entitys</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameOverState.cpp">
+      <Filter>Source Files\States</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ParticleNode.cpp">
+      <Filter>Source Files\Nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\EmitterNode.cpp">
+      <Filter>Source Files\Nodes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\ResourceHolder.hpp">
+      <Filter>Header Files\Resourcen</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\StateIdentifiers.hpp">
+      <Filter>Header Files\Identifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ResourceIdentifier.hpp">
+      <Filter>Header Files\Identifiers</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\World.hpp">
+      <Filter>Header Files\GameEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TitleState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\StateStack.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\State.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SpriteNode.hpp">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SceneNode.hpp">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Player.hpp">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Command.hpp">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\CommandQueue.hpp">
+      <Filter>Header Files\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\PauseState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\MenuState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Button.hpp">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Component.hpp">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Container.hpp">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Label.hpp">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Entity.hpp">
+      <Filter>Header Files\Node\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Aircraft.hpp">
+      <Filter>Header Files\Node\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Category.hpp">
+      <Filter>Header Files\Node\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\SettingState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\DataTables.hpp">
+      <Filter>Header Files\Tabellen</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\TextNode.hpp">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Projectile.hpp">
+      <Filter>Header Files\Node\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Utility.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Pickup.hpp">
+      <Filter>Header Files\Node\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Application.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\GameOverState.hpp">
+      <Filter>Header Files\States</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\Particle.hpp">
+      <Filter>Header Files\Node\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\ParticleNode.hpp">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\EmitterNode.hpp">
+      <Filter>Header Files\Node</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Include\ResourceHolder.inl">
+      <Filter>Header Files\Resourcen</Filter>
+    </None>
+  </ItemGroup>
+</Project>
